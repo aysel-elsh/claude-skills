@@ -1,0 +1,21 @@
+{
+  "name": "aysel-elsh-skills",
+  "owner": {
+    "name": "Aysel Elshenawy"
+  },
+  "metadata": {
+    "description": "Engineering skills for Claude: thermoelectrics and hardware",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "thermoelectric-sizing",
+      "description": "Size thermoelectric generators and Peltier coolers from real datasheets: module count, series/parallel layout, power, COP and heat-sink limits",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/thermoelectric-sizing"
+      ]
+    }
+  ]
+}
